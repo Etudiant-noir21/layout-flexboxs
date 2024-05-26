@@ -91,9 +91,74 @@ aside li{
     aside{
         width: 100%; 
     }
+    
     .items .div{
           flex-basis: 49%;
           margin: 0;
           
     }
+    }
+    nav{
+        width: 100%;
+        display: flex;
+    }
+}
+@media screen and (max-width:900px){
+    .content{
+         /* display: flex;
+         flex-direction: column; */
+         display: block;
+         
+    }
+    .largeur{
+        width: 100%;
+        margin: auto;
+    }
+    .items div{
+        width: 100%;
+    }
+    aside{
+        width: 100%; 
+    }
+    .items .div{
+          flex-basis: 49%;
+          margin: 0;
+          
+    }
+    nav{
+        width: 100%;
+        display: flex;
+    }
+}
+@media screen and (max-width:1200px){
+    .content{
+         /* display: flex;
+         flex-direction: column; */
+         display: block;
+         
+    }
+    .largeur{
+        width: 100%;
+        margin: auto;
+    }
+    .items div{
+        width: 100%;
+    }
+    aside{
+        width: 100%; 
+    }
+    .items .div{
+          flex-basis: 49%;
+          margin: 0;
+
+          
+    }
+    nav{
+        width: 100%;
+        
+    }nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
